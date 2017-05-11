@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+#carousel {
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+    border: solid black;
+    overflow: hidden;
+}
+
+ul {
+    width: 2000px;
+    margin: 0 auto;
+    padding: 0;
+
+
+}
+
+div>ul>li {
+    height: 400px;
+    width: 400px;
+    list-style-type: none;
+    float: left;
+}
